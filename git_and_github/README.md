@@ -8,7 +8,7 @@ This training will focus on two main mental models: the basics of how git works,
 
 There is a bit of work to make sure you've done for this training. In short, you want to make sure you have git installed and connected to GitHub.
 
-We'll use Happy git with R and RStudio as a reference, as it includes guidelines for how to set things up both using the terminal and using R/RStudio.
+We'll use [Happy git with R and RStudio](https://happygitwithr.com) as a reference, as it includes guidelines for how to set things up both using the terminal and using R/RStudio.
 
 ### Install and set up git
 
