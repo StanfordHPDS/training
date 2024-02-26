@@ -4,6 +4,18 @@ git is a tool for version controlling projects, and GitHub is a git-hosting serv
 
 This training will focus on two main mental models: the basics of how git works, focused on the command line interface, and the basics of collaborating with others on GitHub.
 
+## Slides and Exercises
+
+### Version Control with Git
+
+* [Slides](https://teaching-warehouse.netlify.app/git_basics/git_basics.html)
+* [Exercises](https://teaching-warehouse.netlify.app/git_basics/exercises.html)
+
+### Collaboration with GitHub
+
+* [Slides](https://teaching-warehouse.netlify.app/github_basics/github_basics.html)
+* [Exercises](https://teaching-warehouse.netlify.app/github_basics/exercises.html)
+
 ## Pre-work
 
 There is a bit of work to make sure you've done for this training. In short, you want to make sure you have git installed and connected to GitHub.
