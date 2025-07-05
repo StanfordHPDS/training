@@ -4,6 +4,11 @@
 
 This training comes in R and Python flavors. Both flavors have cloud versions where you can participate without needing to install anything on your local computer.
 
+## Hosted Slides
+
+* [Slides (R)](https://teaching-warehouse.netlify.app/quarto_basics/quarto_basics.html)
+* [Slides (Python)](https://teaching-warehouse.netlify.app/py_quarto_basics/py_quarto_basics.html)
+
 ## Installing Quarto
 
 Install the [latest version of Quarto](https://quarto.org/docs/get-started/) from the website.
@@ -65,14 +70,11 @@ For this training, we'll use [VS Code](https://code.visualstudio.com/) with the 
 
 You can learn more about the RStudio Quarto workflow from the slides in the R flavors.
 
-We have two modules, each of which involves the same steps for setup. You'll need [pyenv](https://github.com/pyenv/pyenv) to set up the local Python version.
+We have two modules, each of which involves the same steps for setup. You'll need [uv](docs.astral.sh/uv) to set up the local Python version and dependencies.
 
 1. [Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) onto your local computer.
-2. Run `pyenv install` to install the local Python version
-3. Set up a [virtual environment](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments) (this link also has Windows-specific instructions). Run `python3 -m venv .venv` to create it and `source .venv/bin/activate` to activate it.
-4. Run `python3 -m pip install -r requirements.txt` to install the project dependencies
-
-If you like, you could use the same virtual environment for both projects.
+2. Run `uv sync`. This will also create a virtual environment in the `.venv/` folder.
+3. In VS Code, [set the Python interpreter](https://code.visualstudio.com/docs/python/environments#_working-with-python-interpreters) to use the virtual environment in the `.venv` folder. This will sync the terminal, Jupyter, and Quarto all to use the same Python version and environment.
 
 Here are the repositories:
 
